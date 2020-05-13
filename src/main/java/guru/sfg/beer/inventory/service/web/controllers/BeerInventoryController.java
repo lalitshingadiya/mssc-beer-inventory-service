@@ -33,4 +33,5 @@ public class BeerInventoryController {
                 .map(beerInventoryMapper::beerInventoryToBeerInventoryDto)
                 .collect(Collectors.toList());
     }
+
 }
